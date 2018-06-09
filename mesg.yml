@@ -1,0 +1,19 @@
+name: "Discord invitation"
+tasks:
+  send:
+    inputs:
+      email:
+        type: String
+      sendgridAPIKey:
+        type: String
+    outputs:
+      success:
+        data:
+          code:
+            type: Number
+          message:
+            type: String
+      error:
+        data:
+          message:
+            type: String

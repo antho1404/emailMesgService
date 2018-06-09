@@ -1,0 +1,15 @@
+{
+  "name": "discord-invitation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anthony Estebe <anthony@mesg.tech>",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^6.2.1",
+    "mesg-js": "^1.1.0"
+  }
+}
