@@ -6,7 +6,7 @@ mesg-core service deploy https://github.com/mesg-foundation/service-discord-invi
 
 ## Tasks
 
-### Execute
+### send
 
 #### inputs
 | input | type | description |
