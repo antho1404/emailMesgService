@@ -1,7 +1,7 @@
 # Discord Invitation
 
 ```
-mesg-core service deploy https://github.com/mesg-foundation/service-discord-invitation.git
+mesg-core service deploy https://github.com/mesg-foundation/service-discord-invitation
 ```
 
 ## Tasks
