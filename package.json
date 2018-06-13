@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "@sendgrid/mail": "^6.2.1",
-    "mesg-js": "^1.1.0"
+    "mesg-js": "^1.1.2"
   }
 }
