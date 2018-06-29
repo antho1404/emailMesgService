@@ -1,19 +1,24 @@
 name: "Discord invitation"
+description: "Send a Discord invitation for the MESG groupd"
 tasks:
   send:
     inputs:
       email:
+        description: "Email of the receipient of the email"
         type: String
       sendgridAPIKey:
+        description: "Sendgrid API key [https://app.sendgrid.com/settings/api_keys](https://app.sendgrid.com/settings/api_keys)"
         type: String
     outputs:
       success:
+        description: "Return the status `code` and `message` when everything was fine"
         data:
           code:
             type: Number
           message:
             type: String
       error:
+        description: "Return a `message` with the error"
         data:
           message:
             type: String
