@@ -1,6 +1,6 @@
 # Discord invitation
 
-Send a Discord invitation for the MESG groupd
+Send an invitation to MESG's Discord
 
 ```bash
 mesg-core service deploy https://github.com/mesg-foundation/service-discord-invitation
@@ -38,7 +38,7 @@ Return a `message` with the error
 
 Output key: **success**
 
-Return the status `code` and `message` when everything was fine
+Return the status `code` and `message` when everything functions as expected.
 
 | **key** | **type** | **description** |
 | --- | --- | --- |
