@@ -1,5 +1,6 @@
 name: "Discord invitation"
-description: "Send a Discord invitation for the MESG groupd"
+sid: "discord-invitation"
+description: "Send a Discord invitation"
 tasks:
   send:
     inputs:
