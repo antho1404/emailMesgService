@@ -1,9 +1,9 @@
-# Discord invitation
+# Email Sending Mesg service
 
-Send an invitation to MESG's Discord
+Send an email by MESG and SEND GRID API
 
 ```bash
-mesg-core service deploy https://github.com/mesg-foundation/service-discord-invitation
+mesg-core service deploy https://github.com/MykolaSauliak/emailMesgService
 ```
 
 ## Tasks
@@ -19,6 +19,8 @@ Task key: **send**
 | **key** | **type** | **description** |
 | --- | --- | --- |
 | **email** | `String` | Email of the receipient of the email |
+| **subject** | `String` | Email subject |
+| **messageBody** | `String` | Email text |
 | **sendgridAPIKey** | `String` | Sendgrid API key [https://app.sendgrid.com/settings/api_keys](https://app.sendgrid.com/settings/api_keys) |
 
 
