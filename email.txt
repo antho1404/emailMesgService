@@ -1,9 +1,0 @@
-Welcome to MESG!
-
-MESG exists for and because of YOU. Please, join our Discord and let's make better tools together to create the applications of tomorrow right now!!
-
-https://discord.gg/SaZ5HcE
-
-To get started with MESG, please check out our documentation (https://docs.mesg.com/) and our Github (https://github.com/mesg-foundation) and let us know what amazing services and applications you will build.
-
-Have a great day and happy coding.

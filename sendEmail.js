@@ -1,17 +1,17 @@
 const sendgrid = require('@sendgrid/mail')
 const fs = require('fs')
 
-const from = 'MESG Foundation <contact@mesg.tech>'
-const subject = 'Welcome to MESG'
-const text = fs.readFileSync('./email.txt').toString()
+const from = 'iot_info@iot.home>'
+// const subject = 'Welcome to MESG'
+// const text = fs.readFileSync('./email.txt').toString()
 
-module.exports = (email, sendgridAPIKey) => {
+module.exports = (email, subject, messageBody, sendgridAPIKey) => {
   sendgrid.setApiKey(sendgridAPIKey)
   return sendgrid.send({
     to: email,
     from,
     subject,
-    text
+    text : messageBody
   })
     .then(([response, _]) => ({
       code: response.statusCode,

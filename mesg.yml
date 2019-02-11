@@ -1,11 +1,15 @@
-name: "Discord invitation"
-sid: "discord-invitation"
-description: "Send a Discord invitation"
+name: "Email sending"
+sid: "email_sending"
+description: "Send an email"
 tasks:
   send:
     inputs:
       email:
         description: "Email of the receipient of the email"
+        type: String
+      messageBody:
+        type: String
+      subject:
         type: String
       sendgridAPIKey:
         description: "Sendgrid API key [https://app.sendgrid.com/settings/api_keys](https://app.sendgrid.com/settings/api_keys)"

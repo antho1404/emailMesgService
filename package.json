@@ -1,12 +1,12 @@
 {
-  "name": "discord-invitation",
+  "name": "email sending",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Anthony Estebe <anthony@mesg.tech>",
+  "author": "Mykola Sauliak <koli.sauliak@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "@sendgrid/mail": "^6.2.1",
