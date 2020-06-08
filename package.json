@@ -9,7 +9,7 @@
   "author": "Mykola Sauliak <koli.sauliak@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "@sendgrid/mail": "^6.2.1",
-    "mesg-js": "^1.2.1"
+    "@liteflow/service": "^1.0.7",
+    "@sendgrid/mail": "^6.2.1"
   }
 }
